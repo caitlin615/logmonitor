@@ -1,5 +1,9 @@
-HTTP log monitoring console program
----
+# HTTP log monitoring console program
+
+[![Go Report Card](https://goreportcard.com/badge/github.com/caitlin615/logmonitor)](https://goreportcard.com/report/github.com/caitlin615/logmonitor)
+[![GoCover.io](https://gocover.io/_badge/github.com/caitlin615/logmonitor/password)](https://gocover.io/github.com/caitlin615/logmonitor/password)
+[![GoDoc](https://godoc.org/github.com/caitlin615/logmonitor?status.svg)](https://godoc.org/github.com/caitlin615/logmonitor)
+
 
 Consume an actively written-to [w3c-formatted HTTP access log](https://en.wikipedia.org/wiki/Common_Log_Format).
 It should default to reading `/var/log/access.log` and be overridable.
