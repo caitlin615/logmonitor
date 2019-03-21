@@ -1,7 +1,7 @@
 # HTTP log monitoring console program
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/caitlin615/logmonitor)](https://goreportcard.com/report/github.com/caitlin615/logmonitor)
-[![GoCover.io](https://gocover.io/_badge/github.com/caitlin615/logmonitor/password)](https://gocover.io/github.com/caitlin615/logmonitor/password)
+[![Coverage Status](https://coveralls.io/repos/github/caitlin615/logmonitor/badge.svg?branch=master)](https://coveralls.io/github/caitlin615/logmonitor?branch=master)
 [![GoDoc](https://godoc.org/github.com/caitlin615/logmonitor?status.svg)](https://godoc.org/github.com/caitlin615/logmonitor)
 
 
