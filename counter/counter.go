@@ -28,7 +28,7 @@ type Dict struct {
 	Value int
 }
 
-// New returns an initalized Counter
+// New returns an initialized Counter
 func New() *Counter {
 	return &Counter{
 		counterMap: make(map[string]int),

@@ -29,7 +29,7 @@ type Alert struct {
 }
 
 // NewAlertListener returns an Alert listener with the specified requests per second threshold.
-// TODO: Defaults to a 2 minuted threshold interval, should this be configurable?
+// TODO: Defaults to a 2 minute threshold interval, should this be configurable?
 func NewAlertListener(reqPerSecondThreshold int64) Alert {
 	return Alert{
 		triggerInterval:   10 * time.Second,
@@ -45,7 +45,7 @@ func (a *Alert) Report() (string, error) {
 	start := now.Add(-a.thresholdInterval)
 	var count int64
 
-	// Count the number of logs beween now and the threshold
+	// Count the number of logs between now and the threshold
 	for _, line := range a.logs {
 		if start.Before(line.Date.UTC()) {
 			count++

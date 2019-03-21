@@ -193,7 +193,7 @@ func (ll *Lines) ErrorCode5XX() int {
 	return count
 }
 
-// SectionWithMostHits returns the request section that has the largest occurance
+// SectionWithMostHits returns the request section that has the largest occurrence
 // and the number of time it appears (hits)
 func (ll *Lines) SectionWithMostHits() (string, int) {
 	// TODO: Mutexes when reading s.logs
