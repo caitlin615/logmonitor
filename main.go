@@ -60,7 +60,7 @@ func main() {
 	// make sure everything is closed down before exiting
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, os.Kill, syscall.SIGTERM)
-	for _ = range c {
+	for range c {
 		fmt.Println("Interrupt received, shutting down cleanly")
 		roFile.Close()
 		os.Exit(0)

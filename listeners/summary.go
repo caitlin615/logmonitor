@@ -61,7 +61,7 @@ func (s Summary) Start(listenChan log.Channel) OutputChannel {
 	// Start a goroutine to send a report into the output channel every X seconds based on the trigger time
 	go func() {
 		clock := time.Tick(s.triggerInterval)
-		for _ = range clock {
+		for range clock {
 			if report, err := s.Report(); err == nil {
 				recv <- report.String()
 			}

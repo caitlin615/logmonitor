@@ -23,7 +23,7 @@ func main() {
 	defer file.Close()
 
 	clock := time.Tick(10 * time.Millisecond)
-	for _ = range clock {
+	for range clock {
 		// Randomly skip
 		r := rand.Int()
 		if r%2 == 0 {
