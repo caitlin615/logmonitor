@@ -1,5 +1,6 @@
 # HTTP log monitoring console program
 
+[![Build Status](https://travis-ci.org/caitlin615/logmonitor.svg?branch=master)](https://travis-ci.org/caitlin615/logmonitor)
 [![Go Report Card](https://goreportcard.com/badge/github.com/caitlin615/logmonitor)](https://goreportcard.com/report/github.com/caitlin615/logmonitor)
 [![Coverage Status](https://coveralls.io/repos/github/caitlin615/logmonitor/badge.svg?branch=master)](https://coveralls.io/github/caitlin615/logmonitor?branch=master)
 [![GoDoc](https://godoc.org/github.com/caitlin615/logmonitor?status.svg)](https://godoc.org/github.com/caitlin615/logmonitor)
